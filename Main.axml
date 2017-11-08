@@ -4,24 +4,23 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <Button
-        android:text="Hello"
-        android:layout_width="fill_parent"
+        android:text="Request Location Updates"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/myButton" />
+        android:id="@+id/myButton2" />
     <TextView
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/latitude"
-        android:layout_marginBottom="19.0dp" />
+        android:id="@+id/latitude2" />
     <TextView
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/longitude" />
+        android:id="@+id/longitude2" />
     <TextView
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/provider" />
+        android:id="@+id/provider2" />
 </LinearLayout>
