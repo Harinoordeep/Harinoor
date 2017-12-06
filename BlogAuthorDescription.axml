@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@android:color/holo_green_dark"
+    android:foregroundGravity="fill_vertical">
+    <ImageView
+        android:src="@drawable/test"
+        android:layout_width="wrap_content"
+        android:layout_height="250.0dp"
+        android:scaleType="fitStart"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="                         TRAVEl BLOG"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:text="Welcome to my Application. My name is Harinoordeep Singh. The list of countries i have visited and going to visit can be checked below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Button
+        android:text="MENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>
